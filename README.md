@@ -13,6 +13,8 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 - Mesure du déphasage (en DEG)
 - Mesure des puissances active, réactive, apparente (respectivement en W, VAR et VA)
 
+# Limites du prototype
+
 # Interface Node-RED
 
 <p align="center">
