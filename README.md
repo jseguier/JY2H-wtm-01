@@ -15,6 +15,7 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 
 # Limites du prototype
 
+> [!CAUTION]
 > - Tension maximale : 150 V
 > - Courant maximum : 20 A
 
