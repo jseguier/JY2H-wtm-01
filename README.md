@@ -36,7 +36,6 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 | 1 | `Lots de connecteurs mâles` | [ Lots de 60 pièces ](https://fr.aliexpress.com/item/1005007054274442.html?spm=a2g0o.productlist.main.7.2d836a85920mRU&algo_pvid=74dcdf5c-cd34-41da-a068-9a6e23df61ad&algo_exp_id=74dcdf5c-cd34-41da-a068-9a6e23df61ad-6&pdp_ext_f=%7B%22order%22%3A%2211%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%210.63%210.63%21%21%210.72%210.72%21%402103963717657454233927657e1e32%2112000039245472073%21sea%21FR%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A8703b829%3Bm03_new_user%3A-29895&curPageLogUid=w8Tkhv7sdxsO&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007054274442%7C_p_origin_prod%3A) | 0.63€ |
 
 <p align="center">
-  <br>
   <em>Table 1 – Liste des composants nécessaires à l'assemblage du prototype</em>
   <br>
   <br>
@@ -60,7 +59,6 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 
 </div>
 <p align="center">
-  <br>
   <em>Table 2 – Liste des logiciels utilisés</em>
   <br>
   <br>
@@ -71,8 +69,7 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 <img width="1478" height="504" alt="image" src="https://github.com/user-attachments/assets/8d53c4db-1e92-49bb-b38a-977ad5b01024" />
 
 <p align="center">
-  <br>
-  <em>Fig 2 – Illustration de la chaîne d'acquisiton</em>
+  <em>Figure 2 – Illustration de la chaîne d'acquisiton</em>
   <br>
   <br>
 </p>
