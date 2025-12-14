@@ -13,6 +13,11 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 - Mesure du déphasage (en DEG)
 - Mesure des puissances active, réactive, apparente (respectivement en W, VAR et VA)
 
+# Interface Node-RED
+
+<img width="1580" height="311" alt="image" src="https://github.com/user-attachments/assets/49afa582-2207-4b5a-bfb9-5a7971242f39" />
+
+
 # Matériels utilisés
   
 | Quantité | Principaux composants | Lien | Coût |
@@ -47,9 +52,6 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 
 <img width="1478" height="504" alt="image" src="https://github.com/user-attachments/assets/8d53c4db-1e92-49bb-b38a-977ad5b01024" />
 
-# Interface Node-RED
-
-<img width="1580" height="311" alt="image" src="https://github.com/user-attachments/assets/49afa582-2207-4b5a-bfb9-5a7971242f39" />
 
 
 
