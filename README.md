@@ -16,8 +16,8 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 
 # Matériels utilisés
   
-| Quantité | Principaux composants | Lien |
-|  :---:  | :---:  | :---:  | 
+| Quantité | Principaux composants | Lien | Coût |
+|  :---:  | :---:  | :---:  | :---:  | 
 | 1 | `Microcontrôleur ESP32` | [ ESP32 ](https://www.amazon.fr/ESP32-d%C3%A9veloppement-RUIZHI-ESP32-WROOM-32D-CH340/dp/B0CLCQ64W2/ref=sr_1_15?dib=eyJ2IjoiMSJ9.QkMsoOlqgs8RuoVI8WERCb88GIqQakaAbT6RtnoQgB1jQQjYm6aUoN7WAboM9_reazxVls9eF5Xsf6Xu-yYuCjr54fjB1k59R_R7qKMvPSOd4gQ_iME_YDpNDP8zNS4emgeex_hx_lRMRDyXQk06-jKeenPt7fDKbVD2rwoOIOipMYaooHAi7y7GodstGxDqWKoP_uYAsmtS_GieLEViv2PL5HvlpBZlUVcbvJT0AvfVuHD4N1V4WqUXxvgFLmgznKKr6V29h5HiIjl3N-kINl0NRWoDKmOSwc1WMHgJVMY.3SJ5NKNXxiw6LEeFS_nbdXgEE3QUpI3YbZFA4LGAhPc&dib_tag=se&keywords=esp32&qid=1765730383&sr=8-15) |
 | 1 | `Capteur de Tension AC Grove` | [ AC Grove 101991032 ](https://www.gotronic.fr/art-capteur-de-tension-ac-grove-101991032-36282.htm?srsltid=AfmBOorIeBoYQaFvXzIaMeY5EBjBGz3wjRMceioXvRc0mivrkZl4O75Y) |
 | 1 | `Pince ampèremétrique YHDC` | [ YHDC 30A 50A 100A SCT013 ](https://www.aliexpress.com/p/tesla-landing/index.html?scenario=c_ppc_item_bridge&productId=4000398770406&_immersiveMode=true&withMainCard=true&src=google&aff_platform=true&isdl=y&src=google&albch=shopping&acnt=248-630-5778&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&gclsrc=aw.ds&&albagn=888888&&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=fr4000398770406&ds_e_product_merchant_id=107732565&ds_e_product_country=FR&ds_e_product_language=fr&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=19579670800&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gad_campaignid=19571495907&gbraid=0AAAAACWaBweT5nfEPefp0p4L7a0ewHZj-&gclid=CjwKCAiA3fnJBhAgEiwAyqmY5ZMNJ4HAQ6Bgdy_G2vnzymxvmvX_wthq_G5ykDxtgkoOa5uzqDALmhoChTsQAvD_BwE) |
