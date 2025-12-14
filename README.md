@@ -12,3 +12,31 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 - Mesure du courant efficace (en A)
 - Mesure du déphasage (en DEG)
 - Mesure des puissances active, réactive, apparente (en W, VAR et VA)
+
+# Matériels utilisés
+
+<p align="center">
+  <img width="1086" height="739" alt="branchement-wtm" src="https://github.com/user-attachments/assets/00a1fcaf-851e-47c7-b55a-417c0d324cce" />
+ />
+  <br>
+  <em>Figure 2 – Illustration de l'assemblage de la balance</em>
+  <br>
+  <br>
+</p>
+
+
+
+<div align="center">
+  
+| Identification | Quantité | Principaux composants | 
+|  :---:  |  :---:  | :---:  | 
+| 1 | 1 | `Microcontrôleur ESP32` | 
+| 2 | 1 | `Capteur de température DHT11` | 
+| 3 | 1 | `Convertiseur & amplificateur HX711` | 
+| 4 | 1 | `Cellule de charge` | 
+| 5 | 2 | `BreadBoard` | 
+| 6 | 1 | `Masses d'essais` | 
+
+</div>
+<br>
+<br>
