@@ -1,4 +1,4 @@
-# <img width="50" height="464" alt="image" src="https://github.com/user-attachments/assets/ba9cc101-30ba-4c33-92ce-65d143cf912b" /> JY2H-wtm-01
+# <img width="200" height="1024" alt="logo-jy2h" src="https://github.com/user-attachments/assets/1d9a7e9b-af14-4f92-a7f7-dc6c0829d92c" /> JY2H-wtm-01
 
 # Introduction
 
