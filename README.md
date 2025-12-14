@@ -16,7 +16,7 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 # Matériels utilisés
 
 <p align="center">
-  <img width="1086" height="739" alt="branchement-wtm" src="https://github.com/user-attachments/assets/00a1fcaf-851e-47c7-b55a-417c0d324cce" />
+  <img width="800" height="500" alt="branchement-wtm" src="https://github.com/user-attachments/assets/00a1fcaf-851e-47c7-b55a-417c0d324cce" />
  />
   <br>
   <em>Figure 2 – Illustration de l'assemblage de la balance</em>
