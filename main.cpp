@@ -1,14 +1,17 @@
-#include <Arduino.h>
-#include "PubSubClient.h"
-#include "WiFi.h"
-#include "esp_wpa2.h"
-#include "math.h"
+#include <Arduino.h>        // Librairie Arduino
+#include "PubSubClient.h"   // Librairie protocole MQTT
+#include "WiFi.h"           // Librairie protocole Wifi
+#include "esp_wpa2.h"       // Librairie protocole WPA2
+#include "math.h"           // Librairie d'outils mathématiques
 
 
 
 
 const int N = 40;                 // Nombre de mesures
 const float temps = 500-167;      // Temps entre deux mesures (en µs), 167µs = temps de calcul
+
+
+
 
 int f = 50;                 // Fréquence du secteur (en Hz)
 float Uac[N];               // Tension alternative mesurée
@@ -40,32 +43,29 @@ int m = 0;                  // Compteur m
 
 
 
-// Paramètres MQTT Broker
-const char *mqtt_broker = ""; // Identifiant du broker (Adresse IP)
-const char *topic1 = "Urms"; // Nom du topic sur lequel les données seront envoyés.
-const char *topic2 = "Irms";
-const char *topic3 = "Phi";
-const char *topic4 = "P";
-const char *topic5 = "Q";
-const char *topic6 = "S";
-
-const char *mqtt_username = ""; // Identifiant WPA2
-const char *mqtt_password = ""; // Mdp WPA2
-const int mqtt_port = 1883; // Port : 1883 dans le cas d'une liaison non sécurisée et 8883 dans le cas d'une liaison cryptée
 
 
+const char *mqtt_broker = "{Adresse_IP}";       // Identifiant du broker à renseigner
+const char *topic1 = "Urms";                    // TOPIC envoie tension efficace
+const char *topic2 = "Irms";                    // TOPIC envoie courant efficace
+const char *topic3 = "Phi";                     // TOPIC envoie déphasage
+const char *topic4 = "P";                       // TOPIC envoie puissance active
+const char *topic5 = "Q";                       // TOPIC envoie puissance réactive
+const char *topic6 = "S";                       // TOPIC envoie puissance apparente
 
-WiFiClient espClient;
-PubSubClient client(espClient);
+const char *mqtt_username = "";                 // ID WPA2
+const char *mqtt_password = "";                 // MDP WPA2
+const int mqtt_port = 1883;                     // Port : 1883 dans le cas d'une liaison non sécurisée, 8883 dans le cas d'une liaison cryptée
 
 
 
 
-// Paramètres EDUROAM
-#define EAP_IDENTITY "" // mail
-#define EAP_PASSWORD "" // MDP
-#define EAP_USERNAME "" // mail
-const char* ssid = "eduroam"; // eduroam SSID
+#define EAP_IDENTITY ""                         // MAIL eduoram
+#define EAP_PASSWORD ""                         // MDP eduoram
+#define EAP_USERNAME ""                         // MAIL eduoram
+const char* ssid = "eduroam";                   // SSID eduoram
+
+
 
 
 // Fonction réception du message MQTT
@@ -83,8 +83,18 @@ void callback(char *topic, byte *payload, unsigned int length) {
 
 
 
+WiFiClient espClient;
+PubSubClient client(espClient);
+
+
+
+
+
 void setup() {
-  Serial.begin(115200);
+
+
+
+    Serial.begin(115200);
 
 
     // Connexion au réseau EDUROAM
@@ -116,6 +126,9 @@ void setup() {
           delay(2000);
         }
       }
+
+
+
 }
 
 
@@ -147,6 +160,8 @@ void loop() {
         Umoy = Su/N;
         Imoy = Si/N;
 
+
+        
         // Correction de l'offset et conversion des valeurs brutes
         for( k=0; k < N; k++) 
         {
@@ -158,12 +173,16 @@ void loop() {
           Iac[k] = (Iac[k] - Imoy) * 166/10000 - 1058/10000;
         }
 
+
+
         // Recherche des maxima
         for ( l = 0; l < N; l++) 
         {
           Umax = max(Umax, Uac[l]);
           Imax = max(Imax, Iac[l]);
         }
+
+
 
         // Recherche des instants associés aux maxima
         for ( m = 0; m < N; m++){ 
@@ -177,6 +196,8 @@ void loop() {
           }
         }
  
+
+
 
     // Calculs des grandeurs
     phi_rad = 2*M_PI*f*abs(tU-tI)/1000000;
@@ -207,7 +228,16 @@ void loop() {
     client.subscribe(topic6);
 
 
+
  
     i++; // Comme i = N + 1, la boucle s'arrête.
+
+
+
+
   }
+
+
+
+
 }
