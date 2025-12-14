@@ -44,6 +44,9 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 </div>
 
 # Chaine d'acquisition
-[test2.pdf](https://github.com/user-attachments/files/24152116/test2.pdf)
+
+<img width="1478" height="504" alt="image" src="https://github.com/user-attachments/assets/8d53c4db-1e92-49bb-b38a-977ad5b01024" />
+
+
 
 
