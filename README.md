@@ -32,7 +32,7 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 | 1 | 1 | `Microcontrôleur ESP32` | 
 | 2 | 1 | `Capteur de Tension AC Grove` | 
 | 3 | 1 | `Pince ampèremétrique YHDJ` | 
-| 4 | 1 | `Conditionneur` | 
+| 4 | 1 | `Conditionneur : Pont diviseur de tension + condensateur` | 
 
 </div>
 <br>
