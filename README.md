@@ -15,7 +15,8 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 
 # Interface Node-RED
 
-<img width="1580" height="311" alt="image" src="https://github.com/user-attachments/assets/49afa582-2207-4b5a-bfb9-5a7971242f39" />
+<img width="1918" height="464" alt="image" src="https://github.com/user-attachments/assets/ba9cc101-30ba-4c33-92ce-65d143cf912b" />
+
 
 
 # Matériels utilisés
