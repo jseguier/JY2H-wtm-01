@@ -37,3 +37,27 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 </div>
 <br>
 <br>
+
+# Logiciels utilisés
+
+<img width="2868" height="600" alt="image" src="https://github.com/user-attachments/assets/eb8bf9ab-1b39-4b9f-b141-e1a9c397d93b" />
+
+
+<br>
+<br>
+
+
+<div align="center">
+
+| Logiciels |  Description | 
+|  :---:  |  :---:  |
+| `Visual Studio Code &  PlatformIO` | Éditeur de code source développé par Microsoft + environnement de développement IoT PlatformIO | 
+| `Mosquitto (protocole MQTT)` | Brocker open-source utilisant le protocole MQTT : collecte les données des capteurs | 
+| `Node-RED (interface utilisateur)` | Outil de développement " low-code" : programmation visuelle basée sur des flux | 
+
+</div>
+
+<br>
+<br>
+
+# Logigrammes
