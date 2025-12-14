@@ -16,8 +16,8 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 
 # Matériels utilisés
   
-| Quantité | Principaux composants | 
-|  :---:  | :---:  | 
+| Quantité | Principaux composants | Lien |
+|  :---:  | :---:  | :---:  | 
 | 1 | `Microcontrôleur ESP32` | 
 | 1 | `Capteur de Tension AC Grove` | 
 | 1 | `Pince ampèremétrique YHDJ` | 
