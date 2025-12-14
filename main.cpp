@@ -82,10 +82,8 @@ void callback(char *topic, byte *payload, unsigned int length) {
 
 
 
-
 WiFiClient espClient;
 PubSubClient client(espClient);
-
 
 
 
@@ -241,3 +239,4 @@ void loop() {
 
 
 }
+
