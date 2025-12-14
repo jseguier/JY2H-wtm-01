@@ -43,7 +43,7 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 
 </div>
 
-<br>
-<br>
+# Chaine d'acquisition
+[test2.pdf](https://github.com/user-attachments/files/24152116/test2.pdf)
 
-# Logigrammes
+
