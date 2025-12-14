@@ -8,6 +8,7 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 
 # Fonctionnalités
 
+- Acquisition en temps réel
 - Mesure de la tension efficace (en V)
 - Mesure du courant efficace (en A)
 - Mesure du déphasage (en DEG)
