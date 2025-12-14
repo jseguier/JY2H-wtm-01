@@ -15,25 +15,13 @@ Pour fonctionner, le prototype s'appuie sur **2** capteurs : une **pince ampère
 - Mesure des puissances active, réactive, apparente (en W, VAR et VA)
 
 # Matériels utilisés
-
-<p align="center">
-  <img width="800" height="500" alt="branchement-wtm" src="https://github.com/user-attachments/assets/00a1fcaf-851e-47c7-b55a-417c0d324cce" />
-  <br>
-  <em>Figure 2 – </em>
-  <br>
-  <br>
-</p>
-
-
-
-<div align="center">
   
-| Identification | Quantité | Principaux composants | 
-|  :---:  |  :---:  | :---:  | 
-| 1 | 1 | `Microcontrôleur ESP32` | 
-| 2 | 1 | `Capteur de Tension AC Grove` | 
-| 3 | 1 | `Pince ampèremétrique YHDJ` | 
-| 4 | 1 | `Conditionneur : Pont diviseur de tension + condensateur` | 
+| Quantité | Principaux composants | 
+|  :---:  | :---:  | 
+| 1 | `Microcontrôleur ESP32` | 
+| 1 | `Capteur de Tension AC Grove` | 
+| 1 | `Pince ampèremétrique YHDJ` | 
+| 1 | `Conditionneur : Pont diviseur de tension + condensateur` | 
 
 </div>
 <br>
